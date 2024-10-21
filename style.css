@@ -17,7 +17,7 @@ body{
 .container{
     position: relative;
     width: 400px;
-    height: 105px;
+    height: 605px;
     background: #ffff;
     padding: 28px 32px;
     overflow: hidden;
@@ -74,4 +74,22 @@ body{
 
 .weather-box{
     text-align: center;
+}
+
+.weather-box{
+    width: 60%;
+    margin-top: 30px;
+}
+
+.weather-box .temprature{
+    position: relative;
+    color: #06283D;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: -16px;
+}
+
+.weather-box .temprature span{
+    
 }
