@@ -65,3 +65,13 @@ body{
     color: #ffff;
     background: #06283D;
 }
+
+.search-box i{
+    position: absolute;
+    color: #06283D;
+    font-size: 28px;
+}
+
+.weather-box{
+    text-align: center;
+}
