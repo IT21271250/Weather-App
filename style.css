@@ -126,3 +126,36 @@ body{
     padding-left: 20px;
     justify-content: flex-end;
 }
+
+.weather-details i{
+    color: #06283D;
+    font-size: 26px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.weather-details span{
+    color: #06283D;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.not-found{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+}
+
+.not-found img{
+    width: 70%;
+}
+
+.not-found p{
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
