@@ -9,12 +9,17 @@ const error404 = document.querySelector('.not-found');
 //add click for search button
 search.addEventListener('click', () => {
 
+    //Api key 
     const APIKey = 'Api Key';
+
+    //get city name
     const city = document.querySelector('.search-box input').value;
     
+    //city name is empty
     if (city === '')
         return;
 
+    //fetch data from city
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`)
         .then(response => response.json())
         .then(json => {
