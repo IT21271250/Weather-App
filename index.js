@@ -24,7 +24,9 @@ search.addEventListener('click', () => {
         .then(response => response.json())
         .then(json => {
 
+            //check API responce
             if (json.cod === '404') {
+                // adjust container height and display error msg
                 container.style.height = '400px';
                 weatherBox.style.display = 'none';
                 weatherDetails.style.display = 'none';
@@ -33,9 +35,11 @@ search.addEventListener('click', () => {
                 return;
             }
 
+            //hide error msg if city is found
             error404.style.display = 'none';
             error404.classList.remove('fadeIn');
 
+            // Select DOM elements
             const image = document.querySelector('.weather-box img');
             const temperature = document.querySelector('.weather-box .temperature');
             const description = document.querySelector('.weather-box .description');
