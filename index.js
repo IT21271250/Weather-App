@@ -40,6 +40,7 @@ search.addEventListener('click', () => {
             error404.classList.remove('fadeIn');
 
             // Select DOM elements
+            
             const image = document.querySelector('.weather-box img');
             const temperature = document.querySelector('.weather-box .temperature');
             const description = document.querySelector('.weather-box .description');
