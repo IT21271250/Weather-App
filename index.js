@@ -42,7 +42,7 @@ search.addEventListener('click', () => {
             // Select DOM elements
             
             const image = document.querySelector('.weather-box img');
-            const temperature = document.querySelector('.weather-box .temperature');
+            // const temperature = document.querySelector('.weather-box .temperature');
             const description = document.querySelector('.weather-box .description');
             const humidity = document.querySelector('.weather-details .humidity span');
             const wind = document.querySelector('.weather-details .wind span');
